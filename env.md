@@ -15,29 +15,27 @@
     *default-character-set = utf8
     *[mysqld]
     *character-set-server = utf8
+    启动sudo /etc/init.d/mysql start
 
-启动sudo /etc/init.d/mysql start
+#pip
+安装python模块
+    apt-get install python-pip
+    pip install gdata 
+    再安装douban的python包
 
-------pip------
-安装python模块，apt-get install python-pip
+#python-dev
+    apt-get install python-dev
 
-pip install gdata
-再安装douban的python包
-
------python-dev------
-apt-get install python-dev
-
------django------
+#django
 官方下载
-cd Django-1.3.3/
-python setup.py install
+    cd Django-1.3.3/
+    python setup.py install
 
 关闭django占用的端口
-ps aux | grep -i manage
-and then kill the pid
-
-kill -9 pid    
-the pid is what you found
+    ps aux | grep -i manage
+    and then kill the pid
+    kill -9 pid    
+    the pid is what you found
 
 
 celey redis 
