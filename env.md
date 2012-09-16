@@ -71,8 +71,8 @@
 #常用软件
 
 #proxy switchysharp
-chrome插件，翻墙
-------网页截图------
+* chrome插件，翻墙
+* 网页截图
 
 
 # FTP
