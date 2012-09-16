@@ -10,11 +10,11 @@
 #mysql
     apt-get install mysql-server
     mysql 5.5 编码改为utf-8：
-    *修改my.cnf
-    *[client]
-    *default-character-set = utf8
-    *[mysqld]
-    *character-set-server = utf8
+    * 修改my.cnf
+    * [client]
+    * default-character-set = utf8
+    * [mysqld]
+    * character-set-server = utf8
     启动sudo /etc/init.d/mysql start
 
 #pip
@@ -45,8 +45,8 @@
 #nginx
     apt-get install nginx
 
-*/etc/nginx/conf.d/目录放置自己的配置文件
-*sudo /etc/init.d/nginx restart 重启nginx
+* /etc/nginx/conf.d/目录放置自己的配置文件
+* sudo /etc/init.d/nginx restart 重启nginx
 
 #flup
 使用python写的web服务器软件，它可以接受nginx发来的请求，执行相应的python代码，将结果返回给nginx。
@@ -59,8 +59,8 @@
 #sublime text 2
 字体设置为文泉驿等宽微米黑
 
-*yui-compressor
-*bootstarp
+* yui-compressor
+* bootstarp
 
 #nodejs
 
@@ -68,18 +68,18 @@
 
 
 
-----------常用软件----------
+#常用软件
 
-------proxy switchysharp------
+#proxy switchysharp
 chrome插件，翻墙
 ------网页截图------
 
 
-------FTP------
+# FTP
 FileZila
 
-------ChmSee------
+# ChmSee
 chm文件查看，乱码时修改编码即可
 
-------xmind------
+# xmind
 思维导图
