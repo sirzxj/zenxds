@@ -34,34 +34,35 @@
 关闭django占用的端口
     ps aux | grep -i manage
     and then kill the pid
-    kill -9 pid    
+    kill -9 pid
     the pid is what you found
 
 
-celey redis 
-pip install -U celery-with-redis
+#celey redis 
+    pip install -U celery-with-redis
 
 
-------nginx------
-apt-get install nginx
+#nginx
+    apt-get install nginx
 
-/etc/nginx/conf.d/目录放置自己的配置文件
-sudo /etc/init.d/nginx restart 重启nginx
-------flup------
+*/etc/nginx/conf.d/目录放置自己的配置文件
+*sudo /etc/init.d/nginx restart 重启nginx
+
+#flup
 使用python写的web服务器软件，它可以接受nginx发来的请求，执行相应的python代码，将结果返回给nginx。
-sudo apt-get install python-flup
+    sudo apt-get install python-flup
 
-文件系统
-apt-get install smbfs
-sudo mount -t smbfs //192.168.1.10/share ~/share
+#文件系统
+    apt-get install smbfs
+    sudo mount -t smbfs //192.168.1.10/share ~/share
 
------sublime text 2------
+#sublime text 2
 字体设置为文泉驿等宽微米黑
 
-yui-compressor
-bootstarp
+*yui-compressor
+*bootstarp
 
-------nodejs------
+#nodejs
 
 
 
