@@ -1,19 +1,20 @@
-更新软件源--使用163的源
+#更新软件源--使用163的源
 
-------git------
-apt-get install git
-设置用户名邮箱
-cd .ssh 
-ssh-keygen
+#git
+    apt-get install git
 
-------mysql------
-apt-get install mysql-server
-mysql 5.5 编码改为utf-8：
-修改my.cnf
-[client]
-default-character-set = utf8
-[mysqld]
-character-set-server = utf8
+#设置用户名邮箱
+    cd .ssh 
+    ssh-keygen
+
+#mysql
+    apt-get install mysql-server
+    mysql 5.5 编码改为utf-8：
+    *修改my.cnf
+    *[client]
+    *default-character-set = utf8
+    *[mysqld]
+    *character-set-server = utf8
 
 启动sudo /etc/init.d/mysql start
 
