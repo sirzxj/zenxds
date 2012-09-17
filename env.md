@@ -83,3 +83,6 @@ chm文件查看，乱码时修改编码即可
 
 # xmind
 思维导图
+
+# ReText
+markdown编辑器
