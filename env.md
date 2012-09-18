@@ -17,7 +17,7 @@
     * character-set-server = utf8
     启动sudo /etc/init.d/mysql start
 
-备份和还原
+# mysql备份和还原
     mysqldump -h192.168.1.10 -utttadmin -pmysqladmin@test phoenix > backupfile.sql
     mysql -uroot -pzenxds phoenix < backupfile.sql
 
