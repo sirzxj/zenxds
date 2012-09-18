@@ -86,3 +86,6 @@ chm文件查看，乱码时修改编码即可
 
 # ReText
 markdown编辑器
+
+# deluge
+BT下载
