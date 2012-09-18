@@ -17,6 +17,10 @@
     * character-set-server = utf8
     启动sudo /etc/init.d/mysql start
 
+备份和还原
+    mysqldump -h192.168.1.10 -utttadmin -pmysqladmin@test phoenix > backupfile.sql
+    mysql -uroot -pzenxds phoenix < backupfile.sql
+
 #pip
 安装python模块
     apt-get install python-pip
