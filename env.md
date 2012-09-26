@@ -36,18 +36,18 @@
     python setup.py install
 
 关闭django占用的端口
-    ps aux | grep -i manage
-    and then kill the pid
-    kill -9 pid
-    the pid is what you found
+* ps aux | grep -i manage
+* and then kill the pid
+* kill -9 pid
+* the pid is what you found
 
 
 #celey redis 
-    pip install -U celery-with-redis
+* pip install -U celery-with-redis
 
 
 #nginx
-    apt-get install nginx
+* apt-get install nginx
 
 * /etc/nginx/conf.d/目录放置自己的配置文件
 * sudo /etc/init.d/nginx restart 重启nginx
@@ -73,6 +73,14 @@
 
 
 #常用软件
+
+# QQ
+* 安装 pidgin: sudo apt-get install pidgin
+* 安装pidgin的webqq插件:
+* sudo add-apt-repository ppa:lainme/pidgin-lwqq
+* sudo apt-get update
+* sudo apt-get install libpurple0 pidgin-lwqq
+* 重启
 
 #proxy switchysharp
 * chrome插件，翻墙
