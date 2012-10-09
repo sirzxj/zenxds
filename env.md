@@ -3,7 +3,6 @@
 #git
     apt-get install git
 
-#设置用户名邮箱
     cd .ssh 
     ssh-keygen
 
@@ -18,12 +17,17 @@
     启动sudo /etc/init.d/mysql start
 
 # mysql备份和还原
-    mysqldump -h192.168.1.10 -utttadmin -pmysqladmin@test phoenix > backupfile.sql
+	mysqldump -h192.168.1.10 -utttadmin -pmysqladmin@test phoenix > backupfile.sql
     mysql -uroot -pzenxds phoenix < backupfile.sql
+
+# GUI管理工具
+	sudo apt-get install mysql-workbench
 
 #pip
 安装python模块
     apt-get install python-pip
+    
+# 豆瓣登陆
     pip install gdata 
     再安装douban的python包
 
@@ -34,6 +38,8 @@
 官方下载
     cd Django-1.3.3/
     python setup.py install
+或者
+	pip install django=1.3
 
 关闭django占用的端口
 * ps aux | grep -i manage
