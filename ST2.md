@@ -2,6 +2,7 @@
 	* Aligment	ctrl + alt + a
 	* Zen Coding
 	* Clipboard History -- ctrl+alt+v 参见插件readme
+	* html prettify -- ctrl+shift+P打开输入htmlpre..
 	* jQuery Package for sublime Text
 	* JS Format ctrl+alt+f
 	* JS Minify ctrl+alt+m
