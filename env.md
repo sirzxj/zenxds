@@ -89,7 +89,7 @@
 * 重启
 
 #proxy switchysharp
-* chrome插件，翻墙
+* chrome插件，翻墙, goAgent党
 * 网页截图
 
 

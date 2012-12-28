@@ -10,4 +10,6 @@
 	* git
 	* YUI Compressor F7
 	* Placeholders
+	* markdown preview   ctrl+shift+P打开输入 markdown preview,选择打开方式 浏览器/st2
+	
 	

@@ -20,7 +20,7 @@ git mv file_from file_to
 git commit --amend
 
 
-# 远程仓库
+## 远程仓库
 git remote add pb git://github.com/paulboone/ticgit.git 
 
 shortname url
@@ -29,3 +29,8 @@ shortname url
 * git remote rename pb paul
 * git remote rm paul
 
+## 命令rename
+* git config --global alias.st status
+
+## 开启颜色显示
+* git config --global color.ui true
