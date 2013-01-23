@@ -19,6 +19,8 @@ git mv file_from file_to
 ## 撤销最后一次提交
 git commit --amend
 
+## 重置到上一次提交
+	git reset --hard HEAD^
 
 ## 远程仓库
 git remote add pb git://github.com/paulboone/ticgit.git 

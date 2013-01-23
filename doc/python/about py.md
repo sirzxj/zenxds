@@ -1,0 +1,1 @@
+在 Unix 中,可执行文件通常会将 Python 安装到/usr/local/bin子目录下,而库文件则通常安装在/usr/local/lib/python2.x 子目录下

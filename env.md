@@ -1,5 +1,9 @@
 #更新软件源--使用163的源
 
+# Linux
+	修复grub
+	/usr inode满，copy后重新mount,注意-p复制权限
+
 #git
     apt-get install git
 
