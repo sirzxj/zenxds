@@ -15,3 +15,28 @@
 *	 SQL Server: mssql:host=localhost;dbname=testdb
 *	 Oracle: oci:dbname=//localhost:1521/testdb
 
+## shell
+	./protected/yiic shell(必须在webapp主目录使用该命令)
+	test db connect: echo Yii::app()->db->connectionString;
+
+## test
+under the directory protected/tests/
+	XxxTest.php(a class extends CTestCase
+) > xxxTest(a method)
+	phpunit unit/xxx.php
+
+## install PHPUnit
+[PHPUnit](https://github.com/sebastianbergmann/phpunit/)
+
+	apt-get install php5-curl,php-pear
+	pear install phpunit/phpunit_selenium
+
+## install selenium
+
+## database migration
+	yiic migrate create <name>
+
+
+
+
+
