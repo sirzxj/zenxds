@@ -17,5 +17,7 @@
 	* DocBlockr      写js文档    /** + 回车或tab
 	* Bracket Highlighter	高亮匹配的字符{}, [], <>
 	* SideBar Enhancements 扩展侧边栏
+	* soda
+	* less
 	
 	

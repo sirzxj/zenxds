@@ -1,12 +1,10 @@
-#更新软件源--使用163的源
+#　更新软件源--使用163的源
 
 # Linux
 	修复grub
 	/usr inode满，copy后重新mount,注意-p复制权限
 
 #git
-    apt-get install git
-
     cd .ssh 
     ssh-keygen
 
@@ -72,42 +70,3 @@
 
 #sublime text 2
 字体设置为文泉驿等宽微米黑
-
-* yui-compressor
-* bootstarp
-
-#nodejs
-
-
-
-
-
-#常用软件
-
-# QQ
-* 安装 pidgin: sudo apt-get install pidgin
-* 安装pidgin的webqq插件:
-* sudo add-apt-repository ppa:lainme/pidgin-lwqq
-* sudo apt-get update
-* sudo apt-get install libpurple0 pidgin-lwqq
-* 重启
-
-#proxy switchysharp
-* chrome插件，翻墙, goAgent党
-* 网页截图
-
-
-# FTP
-FileZila
-
-# ChmSee
-chm文件查看，乱码时修改编码即可
-
-# xmind
-思维导图
-
-# ReText
-markdown编辑器
-
-# deluge
-BT下载
