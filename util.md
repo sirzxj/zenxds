@@ -12,6 +12,10 @@
 ## windows
 * css satyr - css sprite 代码生成
 * vstart
+* nt6 hdd -- 装系统
+* putty -- ssh
+* mingw
+
 
 ## web
 * disqus: comment
