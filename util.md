@@ -4,6 +4,7 @@
 * xmind - 思维导图
 * dropbox
 * virtual-box
+* Mozilla Thunderbird 邮件客户端
 
 ## linux
 * Gparted 分区
@@ -15,6 +16,7 @@
 * nt6 hdd -- 装系统
 * putty -- ssh
 * mingw
+* diskgenius 硬盘格式化
 
 
 ## web
