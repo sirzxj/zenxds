@@ -18,12 +18,12 @@
 	
 	* 用emmet替代
 	* Prefixr 私有前缀自动补全插件 ctrl-alt-x
-	* placeholders -- 会在img中添加站位图片，fuck
+	* placeholders -- 会在img中添加占位图片，fuck
 
 	* markdown preview   ctrl+shift+P打开输入 markdown preview,选择打开方式 浏览器/st2
 	* Sublime CodeIntel 代码补全，跳到定义和函数调用提示
 	* Sublime Linter 语法检查
-	* DocBlockr      写js文档    /** + 回车或tab 
+	* DocBlockr      写js文档,在函数上面自动生成函数文档    /** + 回车或tab 
 	* Bracket Highlighter	高亮匹配的字符{}, [], <>, 默认风格为下划线，可以在配置里改为高亮显示
 	* SideBar Enhancements 扩展侧边栏
 	* soda

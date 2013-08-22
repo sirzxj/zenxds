@@ -6,6 +6,7 @@
 * virtual-box
 * Mozilla Thunderbird 邮件客户端
 
+
 ## linux
 * Gparted 分区
 # ChmSee - chm文件查看，乱码时修改编码即可
@@ -17,6 +18,7 @@
 * putty -- ssh
 * mingw
 * diskgenius 硬盘格式化
+* navicat for mysql
 
 
 ## web

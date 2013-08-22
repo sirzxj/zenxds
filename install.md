@@ -30,3 +30,9 @@
 	# 不执行上面直接下面开启mysql服务的不起作用，wamp你干了啥
 	mysqld --install
 	net start mysql
+
+## ant
+	下载ant
+	ANT_HOME：c:/ant
+	JAVA_HOME=c:\jdk-1.5.0.05
+	PATH ;%ANT_HOME%\bin
